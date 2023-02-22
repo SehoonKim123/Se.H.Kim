@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #333;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:'Dancing Script', cursive;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.header{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    padding-top: 50px;
+    border-bottom: 1px solid #808080;
+}
+.header h1, 
+.header h2{
+    font-size: 40px;
+}
+.header .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.header .menu li{
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+
+
+
+.contents{
+    height: auto;
+    min-height: 500px;
+    font-size: 50px;
+    display: none;
+    padding: 0 50px;
+}
+.contents:nth-child(1){
+    display: flex;
+    padding: 0;
+}
+
+
+
+
+
+/* Introduce */
+
+#Introduce{
+    flex-wrap: wrap;
+    
+}
+.profile  {
+
+    background-color:#efe7db;
+    width : 20%;
+    min-width: 200px;
+    height : 850px;
+    
+}
+
+.profile article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom : 10%;
+    
+
+}
+.profile article img{
+    width : 60%;
+    height : 40%
+}
+.profile h2 {
+    margin-top : 10%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom : 5%;
+}
+.profile  li{
+    display : flex;
+    text-align: left;
+    padding-left: 5%;
+    
+}
+
+.profile  li p{
+    margin : 0 1px 10px;
+    font-size : 15px;
+}
+.profile  li span{
+    display: inline-block;
+    font-family:'Dancing Script', cursive;
+    font-weight: bold;
+    min-width: 100px;
+    font-size : 19px;   
+}
+.profile  li a{
+
+    font-size : 15px;   
+}
+.pika p{
+
+    text-align : center;
+    font-size : 18px;
+    font-weight : bold
+}
+
+.introduce {
+    border-bottom: 1px solid #808080;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    min-width: 700px;
+    
+}
+.introduce .box {
+    width: 50%;
+}
+.introduce .box h2{
+    font-size : 30px;
+    padding-left: 5%;
+    margin-top : 5%;
+    margin-bottom : 2%
+}
+.introduce  .box li{
+    display : flex;
+    text-align: left;
+ 
+    padding-left: 5%;
+}
+
+.introduce  li p{
+    margin : 0 5px 8px;
+    font-size: 17px;
+}
+
+.introduce  li span{
+    display: inline-block;
+    min-width: 100px;
+}
+
+
+
+
+
+.cap{
+
+    width : 100%;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+/* capabilities */
+
+.capabilities h2{
+    margin-top: 3%;
+    font-size : 50px;
+    text-align: center; 
+}
+.capabilities h3{
+    margin-top: 50px;
+    font-size : 35px;
+}
+.capabilities article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.capabilities div{
+    padding-right : 10px;
+}
+#myChart1, #myChart2,#myChart3{
+    width: 300% !important;
+    height: 300px !important;
+    cursor: pointer;
+}
+
+.capabilities .bar-chart{
+
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+.capabilities .bar-chart > div{
+    margin-bottom: 50px;
+}
+.capabilities .chart-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.capabilities .bar-chart h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.capabilities .chart-box p{
+    font-size: 0.92rem;
+    width: 130px;
+}
+.capabilities .chart-box span{
+    margin-left: 0px;
+    font-size: 0.8rem;
+    
+}
+.capabilities .bar-chart .bar-bg{
+    width: 250px;
+    height: 8px;
+    background-color: #c5c5c5;
+    position: relative;
+}
+.capabilities .bar-chart .bar-bg .bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: red;
+}
+
+/* 2페이지 */
+
+.research {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.research .research-box1 {
+    width: 100%;
+    border-bottom: 1px solid #808080;
+}
+.research .research-box2 {
+    width: 100%;
+    border-bottom: 1px solid #808080;
+}
+.research .research-box3 {
+    width: 100%;
+    border-bottom: 1px solid #808080;
+}
+.research h2{
+    font-size : 30px;
+
+    margin-top : 3%;
+    margin-bottom : 2%;
+    margin-left : 1%
+}
+.research li{
+    display : flex;
+    text-align: left;
+
+}
+
+.research li p{
+    margin : 0 5px 8px
+}
+
+.research li span{
+    display: inline-block;
+    min-width: 100px;
+    margin-left: 2%;
+}
+
+.research article {
+    display : flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* 3페이지 */
+.univer {
+    
+    flex-wrap : wrap;
+    display: flex;
+}
+.univer h2{
+    font-size : 30px;
+
+    margin-top : 1%;
+    margin-bottom : 2%;
+    margin-left : 2%
+}
+.univer li{
+    display : flex;
+    text-align: left;
+
+}
+
+.univer li p{
+    margin : 0 5px 8px
+}
+
+.univer li span{
+    display: inline-block;
+    min-width: 100px;
+    padding-left: 2%;
+
+}
+
+
+
+.awarduniv {
+    width :100%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.awarduniv h2{
+    width: 100%;
+}
+
+.awarduniv article {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+
+}
+.awarduniv article div{
+    width : 31%;
+    margin: 1%;
+}
+.awarduniv article img,
+.awarduniv article p{
+    width: 100%;
+    text-align: center;
+}
+.university {
+    padding-left : 1.5%;
+}
+
+
+.subject1 {
+
+    width : 63%;
+
+    align-items: center;
+}
+
+
+
+
+.subject1 h2{
+    font-size : 30px;
+
+    margin-top : 1%;
+    margin-bottom : 2%;
+    margin-left : 10%
+}
+
+.subject1 .subject_wrap{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.subject1 .subject_wrap div{
+    width: 250px;
+    height: 80px;
+    margin: 5px;
+    font-size: 0.95rem;
+    border: 2px solid #ffc94c;
+    background: linear-gradient(
+        -45deg,
+        #fefefe 0 calc(50% - 10px),
+        #F5F5F5 calc(50% - 10px) calc(50% + 10px),
+        #ff9901 calc(50% + 10px) 100%
+    );
+    background-size: 250% 100%;
+    background-position: 100% 50%;
+    transition: all 0.3s;
+}
+  
+.subject1 .subject_wrap div:hover {
+    color: #f5f5f5;
+    background-position: 0% 50%;
+}
+
+
+/* 4페이지 */
+
+.python {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.python .python-box1 {
+    width: 100%;
+    border-bottom: 1px solid #808080;
+}
+.python h2{
+    font-size : 30px;
+
+    margin-top : 1%;
+    margin-bottom : 2%;
+    margin-left : 1%
+}
+.python li{
+    display : flex;
+    text-align: left;
+
+}
+
+.python li p{
+    margin : 0 5px 8px
+}
+
+.python li span{
+    display: inline-block;
+    min-width: 100px;
+    margin-left: 2%;
+}
+
+.python article {
+    display : flex;
+    text-align: center;
+}
+
+.python img {
+    margin-top: 2%;
+    max-width: 48%;
+    margin-left :2%;
+    margin-bottom : 2%;
+}
